@@ -62,7 +62,6 @@ export function useWeather() {
   //     alert(err)
   //   }
   // }
-
   useEffect(() => {
     console.log('check');
     // getLocation();

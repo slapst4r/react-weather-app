@@ -19,5 +19,4 @@ const WeatherComp = (props) => {
     </div>
   )
 }
-
 export default WeatherComp

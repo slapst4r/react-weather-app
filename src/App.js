@@ -2,7 +2,6 @@ import './App.css';
 import React from "react";
 import {WeatherPage} from './pages/WeatherPage';
 
-
 export default function App() {
   
   // const [lat, setLat] = useState([]);
