@@ -3,7 +3,6 @@ import React from 'react'
 const WeatherComp = (props) => {
   // const {weather, loading} = useWeather()
   const weatherData = props.weatherData || "" 
-  console.log(props)
   return (
     <div className="font-semibold p-6 space-y-3 relative mx-auto my-5 rounded-3xl text-xl bg-white text-gray-600 shadow-xl py-5 min-w-max">
        {<h2>City: {weatherData?.name}</h2>} 
